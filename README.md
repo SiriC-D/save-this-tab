@@ -35,15 +35,16 @@ Below is the extension popup interface:
 
 ---
 
-## 📦 Project Structure
+### 📦 Project Structure
 
+```text
 save-this-tab/
-├── index.html # Popup UI
-├── styles.css # Styling
-├── script.js # Logic and Chrome API usage
-├── manifest.json # Chrome extension configuration
-├── icon.png # Extension icon
-├── popup.png # Popup screenshot
+├── index.html      # Popup UI
+├── styles.css      # Styling
+├── script.js      # Logic and Chrome API usage
+├── manifest.json   # Chrome extension configuration
+├── icon.png        # Extension icon
+├── popup.png       # Popup screenshot
 └── README.md
 
 
