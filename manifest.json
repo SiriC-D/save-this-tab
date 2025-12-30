@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Save This Tab",
+  "version": "1.0",
+  "description": "Quickly save the current tab URL or custom notes.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["tabs"]
+}
