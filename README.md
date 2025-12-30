@@ -1,8 +1,16 @@
 # Save This Tab
 
-Save This Tab is a simple Chrome extension that lets you quickly save the current tab URL or custom notes with one click.
+Save This Tab is a simple Chrome extension that lets you quickly save the current tab URL or custom notes with a single click.
 
 It is designed for fast, lightweight saving without opening bookmarks or external tools.
+
+---
+
+## 📸 Screenshot
+
+Below is the extension popup interface:
+
+![Save This Tab popup](popup.png)
 
 ---
 
@@ -10,9 +18,9 @@ It is designed for fast, lightweight saving without opening bookmarks or externa
 
 - Save the current active tab URL
 - Save custom text or notes manually
-- Persistent storage using browser localStorage
+- Persistent storage using browser `localStorage`
 - Clickable saved links (open in a new tab)
-- Delete all saved entries with a single click
+- Delete all saved entries with one click
 - Clean and minimal popup UI
 
 ---
@@ -34,14 +42,16 @@ save-this-tab/
 ├── styles.css # Styling
 ├── script.js # Logic and Chrome API usage
 ├── manifest.json # Chrome extension configuration
-└── icon.png # Extension icon
+├── icon.png # Extension icon
+├── popup.png # Popup screenshot
+└── README.md
 
 
 ---
 
 ## 🚀 Installation (Manual)
 
-This extension can be installed manually in Chrome:
+This extension can be installed manually in Google Chrome:
 
 1. Clone or download this repository
 2. Open Chrome and go to `chrome://extensions`
@@ -54,27 +64,28 @@ This extension can be installed manually in Chrome:
 
 ## 🧠 How It Works
 
-- The extension popup is built using HTML and CSS
+- The popup UI is built using HTML and CSS
 - JavaScript handles user interactions and rendering
-- The Chrome `tabs` API is used to get the current tab URL
-- Saved data is stored using `localStorage`, so it persists across sessions
+- The Chrome `tabs` API is used to fetch the current active tab URL
+- Saved data is stored using `localStorage`, so it persists across browser sessions
 
 ---
 
-## 📌 Notes
+## 🔐 Privacy & Permissions
 
-- This extension does **not** access or modify website content
-- No user data is tracked or shared
-- All data is stored locally in the browser
+- This extension does **not** read or modify website content
+- No user data is collected or shared
+- All saved data stays locally in the browser
+- Only the `tabs` permission is used to fetch the active tab URL
 
 ---
 
-## 📈 Future Improvements
+## 📈 Possible Improvements
 
-- Sync data using Chrome storage
+- Sync saved data using Chrome storage
 - Export saved URLs
-- Add categories or tags
-- Confirmation dialog before deleting all entries
+- Add confirmation before deleting all entries
+- Organize saved items with tags or folders
 
 ---
 
