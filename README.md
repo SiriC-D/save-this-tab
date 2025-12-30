@@ -46,7 +46,7 @@ save-this-tab/
 ├── icon.png        # Extension icon
 ├── popup.png       # Popup screenshot
 └── README.md
-
+```
 
 ---
 
